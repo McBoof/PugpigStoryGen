@@ -67,7 +67,6 @@ instance/
 
 # Replit stuff:
 .breakpoints
-replit.nix
 pyproject.toml
 
 # Scrapy stuff:
