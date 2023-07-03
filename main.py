@@ -10,6 +10,7 @@ from nasreen import *
 from minh import *
 from abdulah import *
 from nathan import *
+from dain import *
 
 g = Noah(Back.BLUE)
 generators = [
@@ -19,7 +20,8 @@ generators = [
   Abdulah(Back.RED),
   Nathan(Back.MAGENTA),
   Lisbeth(Back.RED),
-  Nasreen(Back.CYAN)
+  Nasreen(Back.CYAN),
+  Dain(Back.LIGHTMAGENTA_EX)
 ]
 
 template = """
