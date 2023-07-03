@@ -5,13 +5,14 @@ from colorama import Back
 from generator import *
 from jon import *
 from noah import *
+from nathan import *
 
 g = Noah(Back.BLUE)
 
 generators = [
   Jon(Back.BLUE),
-  Noah(Back.GREEN)
-  Nathan(Back.PINK)
+  Noah(Back.GREEN),
+  Nathan(Back.MAGENTA)
 ]
 
 template = """
