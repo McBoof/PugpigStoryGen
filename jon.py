@@ -5,4 +5,4 @@ class Jon(Generator):
     return "dog"
 
   def getAdjective(self):
-    return "chearful"
+    return "cheerful"
