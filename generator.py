@@ -6,13 +6,6 @@ class Generator:
 
   def getColor(self):
     return self.color
-
-
-  def getNoun(self):
-    return "boo"
-  
-  def getAdjective(self):
-    return "green"
   
   def getWord(self, type):
     methodName = "get" + type.capitalize()
