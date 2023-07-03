@@ -1,3 +1,4 @@
+import random
 
 class Generator:
   
@@ -17,7 +18,7 @@ class Generator:
     return "jump"
   
   def getGcse(self):
-    return "Computer Science"
+    return random.choice(["Computer Science","Triple Science","Geography"])
 
   def getTemplate(self):
     return """

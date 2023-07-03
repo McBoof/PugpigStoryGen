@@ -1,11 +1,13 @@
 from generator import *
+from time import gmtime, strftime
+
 class Jon(Generator):
   
   def getNoun(self):
-    return "dog"
+    return "clock that reads " + strftime("%H:%M:%S", gmtime())
 
   def getAdjective(self):
     return "cheerful"
 
   def getTemplate(self):
-    return "{{adjective}} {{noun}} {{gcse}}"
+    return "I think a {{adjective}} {{noun}} is better than {{gcse}}"
