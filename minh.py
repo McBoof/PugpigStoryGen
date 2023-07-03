@@ -1,5 +1,5 @@
 from generator import *
-class minh(Generator):
+class Minh(Generator):
   
   def getNoun(self):
     return "pigeon"
