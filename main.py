@@ -16,7 +16,7 @@ from dain import *
 generators = [
   Jon(Back.BLUE),
   Noah(Back.GREEN),
-  Isaac(Back.YELLOW)
+  Isaac(Back.YELLOW),
   Minh(Back.YELLOW),
   Abdulah(Back.RED),
   Nathan(Back.MAGENTA),
