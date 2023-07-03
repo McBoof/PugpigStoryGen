@@ -23,4 +23,3 @@ class Noah(Generator):
     adjective = type[random.randint(0, len(type)-1)]
     return adjective
 
-    
