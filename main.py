@@ -33,7 +33,7 @@ replacements = ["adjective", "noun", "gcse"]
 for word_type in replacements:
   
   placeholder = "{{"+word_type+"}}"
-  while template.find(placeholder) > 0:
+  while template.find(placeholder) >= 0:
     g = random.choice(generators)
     template = template.replace(placeholder, g.getColor() + g.getWord(word_type) + Back.BLACK, 1)  
 
