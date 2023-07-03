@@ -12,7 +12,6 @@ from abdulah import *
 from nathan import *
 from dain import *
 
-g = Noah(Back.BLUE)
 generators = [
   Jon(Back.BLUE),
   Noah(Back.GREEN),
@@ -24,9 +23,8 @@ generators = [
   Nasreen(Back.CYAN)
 ]
 
-template = """
-One day the {{noun}} went to see the {{noun}} at the park, and talked about {{noun}}s. They also bought a {{adjective}} {{adjective}} {{noun}} and a {{adjective}} {{noun}} from the {{noun}}, but that wasn't until after they ate the {{adjective}} {{noun}}. There was a {{gcse}} the next day.
-"""
+g = random.choice(generators)
+template = g.getTemplate()
 
 replacements = ["adjective", "noun", "gcse"]
 
