@@ -7,6 +7,15 @@ class Generator:
   def getColor(self):
     return self.color
 
+  def getNoun(self):
+    return "table"
+
+  def getAdjective(self):
+    return "small"
+
+  def getVerb(self):
+    return "jump"
+  
   def getGcse(self):
     return "Computer Science"
 

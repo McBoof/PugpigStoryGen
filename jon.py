@@ -8,4 +8,4 @@ class Jon(Generator):
     return "cheerful"
 
   def getTemplate(self):
-    return "{{adjective}} {{noun}}"
+    return "{{adjective}} {{noun}} {{gcse}}"
