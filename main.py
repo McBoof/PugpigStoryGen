@@ -5,13 +5,13 @@ from colorama import Back
 from generator import *
 from jon import *
 from noah import *
+from nasreen import *
 
 g = Noah(Back.BLUE)
+g = Nasreen(Back.RED)
 
-generators = [
-  Jon(Back.BLUE),
-  Noah(Back.GREEN)
-]
+generators = [Jon(Back.BLUE),
+  Noah(Back.GREEN) , Nasreen(Back.RED)]
 
 template = """
 One day the {{adjective}} went to the {{noun}} and saw the {{adjective}} {{noun}}".
