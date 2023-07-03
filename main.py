@@ -18,7 +18,7 @@ generators = [
   Minh(Back.YELLOW),
   Abdulah(Back.RED),
   Nathan(Back.MAGENTA),
-  Lisbeth(Back.RED),
+  Lisbeth(Back.PURPLE),
   Nasreen(Back.CYAN)
 ]
 
