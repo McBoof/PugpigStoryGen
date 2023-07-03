@@ -1,8 +1,8 @@
 from generator import *
-class Noah(Generator):
+class Abdulah(Generator):
   
   def getNoun(self):
-    return "cat"
+    return "bird"
 
   def getAdjective(self):
-    return "jolly"
+    return "happy"
