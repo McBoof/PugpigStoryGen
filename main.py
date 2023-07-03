@@ -3,5 +3,4 @@ import colorama
 
 from colorama import Back
 
-print("Hello Brave New World")
-
+print("Hello everyone. Welcome to Pugpig")
