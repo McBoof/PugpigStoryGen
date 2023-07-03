@@ -7,5 +7,5 @@ class Jon(Generator):
   def getAdjective(self):
     return "cheerful"
 
-  def getTempate(self):
+  def getTemplate(self):
     return "{{adjective}} {{noun}}"
