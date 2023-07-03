@@ -19,17 +19,16 @@ generators = [
   Minh(Back.YELLOW),
   Abdulah(Back.RED),
   Nathan(Back.MAGENTA),
-  Lisbeth(Back.RED),
-  Nasreen(Back.CYAN),
-  Dain(Back.LIGHTMAGENTA_EX)
+  Dain(Back.LIGHTMAGENTA_EX),
+  Lisbeth(Back.LIGHTWHITE_EX),
+  Nasreen(Back.CYAN)
 ]
 
 template = """
-One day the {{adjective}} {{noun}} went to the {{noun}} and saw the {{adjective}} {{noun}}.
-They also bought a {{adjective}} {{adjective}} {{noun}} and a {{adjective}} {{noun}}.
+One day the {{noun}} went to see the {{noun}} at the park, and talked about {{noun}}s. They also bought a {{adjective}} {{adjective}} {{noun}} and a {{adjective}} {{noun}} from the {{noun}}, but that wasn't until after they ate the {{adjective}} {{noun}}. There was a {{gcse}} the next day.
 """
 
-replacements = ["adjective", "noun"]
+replacements = ["adjective", "noun", "gcse"]
 
 for word_type in replacements:
   

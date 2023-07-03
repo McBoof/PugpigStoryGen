@@ -1,8 +1,14 @@
 from generator import *
+import random
+choiceAdj = ["stronk","powerful","soprendente","triste","felicdad"]
+choiceNou = ["rat","pigeon","monkey","swordfish","dain"]
 class Minh(Generator):
+
   
   def getNoun(self):
-    return "pigeon"
+    noun = random.choice(choiceNou)
+    return noun
   def getAdjective(self):
-    return "strong"
+    adjective = random.choice(choiceAdj)
+    return adjective
   

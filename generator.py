@@ -6,6 +6,9 @@ class Generator:
 
   def getColor(self):
     return self.color
+
+  def getGcse(self):
+    return "Computer Science"
   
   def getWord(self, type):
     methodName = "get" + type.capitalize()
