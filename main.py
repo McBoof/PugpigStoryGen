@@ -11,6 +11,7 @@ g = Noah(Back.BLUE)
 generators = [
   Jon(Back.BLUE),
   Noah(Back.GREEN)
+  Nathan(Back.PINK)
 ]
 
 template = """
