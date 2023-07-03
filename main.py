@@ -6,6 +6,8 @@ from generator import *
 from jon import *
 from noah import *
 from lisbeth import *
+from nasreen import *
+from minh import *
 from abdulah import *
 from nathan import *
 
@@ -13,9 +15,11 @@ g = Noah(Back.BLUE)
 generators = [
   Jon(Back.BLUE),
   Noah(Back.GREEN),
+  Minh(Back.YELLOW),
   Abdulah(Back.RED),
   Nathan(Back.MAGENTA),
-  Lisbeth(Back.RED)
+  Lisbeth(Back.RED),
+  Nasreen(Back.CYAN)
 ]
 
 template = """
